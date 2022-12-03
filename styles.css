@@ -764,6 +764,22 @@ color: #7F848D;
 
 }
 
+#testimonial .round{
+  width: 10px;
+  height: 10px;
+  background-color: #1C51FD;
+  border-radius: 10px;
+}
+
+#testimonial .grey{
+  background-color: #EAEBEC;
+}
+
+#testimonial .round-indicator{
+  display: flex;
+  gap: 8px;
+}
+
 #planet .container{
   height: 546px;
   background-color: #293241;
@@ -850,6 +866,7 @@ color: #FFFFFF;
 #footer hr{
   border: 1px solid #EAEBEC;
   margin-bottom: 70px;
+  width: 1340px;
 }
 
 #footer .footer-content{
@@ -879,17 +896,13 @@ color: #FFFFFF;
   color: #7F848D;
 }
 
-#footer h4{
-  margin: 0;
-}
-
-#footer .social-media img{
+#footer img{
   background-color: #EAEBEC;
   padding: 11px 15px;
   border-radius: 8px;
 }
 
-#footer .social-media .brand-social-media{
+#footer .brand-social-media{
   display: flex;
   gap: 16px;
   margin-top: 18px;
