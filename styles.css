@@ -524,15 +524,40 @@ body, ul, ol{
   padding: 6px 12px;
   text-align: center;
   font-size: 14px;
+  line-height: 22px;
 }
-#pricing .blue-card{
+
+#pricing .yellow-card{
+  border: 1px solid transparent;
+}
+
+
+#pricing .yellow-card:hover{
   background-image: url(images/shap.png);
   background-repeat: no-repeat;
+  border: 1px solid #EDCB50;
+}
+
+#pricing .blue-card{
+  border: 1px solid transparent;
 }
 
 
 #pricing .blue-card:hover{
+  background-image: url(images/shap.png);
+  background-repeat: no-repeat;
   border: 1px solid #1681FE;
+}
+
+#pricing .green-card{
+  border: 1px solid transparent;
+}
+
+
+#pricing .green-card:hover{
+  background-image: url(images/shap.png);
+  background-repeat: no-repeat;
+  border: 1px solid #448C74;
 }
 
 #pricing .card-price :hover{
